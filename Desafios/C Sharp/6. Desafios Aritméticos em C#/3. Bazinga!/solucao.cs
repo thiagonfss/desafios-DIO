@@ -61,9 +61,7 @@ class Bazinga
 
         Console.WriteLine("Caso #{0}: Bazinga!", i);                
       
-      else if (( v1 == "tesoura" && v2 == "tesoura") || (v1 == "papel" && v2 == "papel") || 
-        (v1 == "pedra" && v2 == "pedra") || (v1 == "lagarto" && v2 == "lagarto") || 
-        (v1 == "Spock" && v2 == "Spock"))
+      else if (v1 == v2)
         
         Console.WriteLine("Caso #{0}: De novo!", i);
       
